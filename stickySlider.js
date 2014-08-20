@@ -1,6 +1,12 @@
 
 $(document).ready(function(){
 	
+	
+	 var stickyHeight = $('.sticky-scroll-box').height();
+	  var boxHeight = $('#content').height();  
+	  
+	  if(stickyHeight < boxHeight){
+	
 <!-- start function -->
 function resetValues(){
 	//$('div').removeAttr('style');
@@ -12,8 +18,7 @@ function resetValues(){
 	  
 	  var top = $('.sticky-scroll-box').offset().top;
 	  var stickyHeight = $('.sticky-scroll-box').height();
-	  var boxHeight = $('#content').height();
-	  var stickyHeight;
+	  var boxHeight = $('#content').height();  
 	  var bottom = $('.end-sticky').offset().top - stickyHeight;
 	
 		  $('.sticky-scroll-box').stop().removeClass('fixed absolute relative');
@@ -155,6 +160,8 @@ setSticky();
 			  $('#toggle-switch').removeClass('on');
 			  
 			  }); 
+			  
+	  }// END if(stickyHeight < boxHeight)
 });  //end document ready
 
 
