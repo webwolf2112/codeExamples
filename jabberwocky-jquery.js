@@ -1,4 +1,6 @@
-/* Custom JQuery Code to included to change website design on a shopping cart platform (http://www.suredone.com/). I was only able to edit the header file and overwrite existing styles  */  
+/*  Custom JQuery Code for http://www.jabberwockysales.com/ 
+
+ I was only able to edit the header file and overwrite existing styles to change website design on a shopping cart platform (http://www.suredone.com/).  */  
 
 
 
